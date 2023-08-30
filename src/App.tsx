@@ -78,8 +78,6 @@ function App() {
     string | undefined
   >(undefined);
 
-  console.log(name);
-
   async function onSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     const data: AppointmentAPIRequestBody = {
