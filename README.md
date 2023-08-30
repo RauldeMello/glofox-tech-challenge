@@ -1,23 +1,8 @@
-# Instructions
-
-# Task 1 - Design decomposition - 15min
-Adding a new feature always bring new challenges, one of the most common challenges we face as a team is how to slice something to deliver the biggest value for customers with the smallest amount of work.
-
-This exercise asks the candidate to explore the different ways this piece of work could be approached.
-
-Problem statement:
-
-```
-Members want to be able to see Visits and attendance inside the profile screen
-```
-
-![Screenshot](public/design_decomposition.png)
-
 # Task 2 - Complete the form! - 45min
 
 Setup the environment together with the team member.
 ```
-npm install
+npm installhttps://github.com/RauldeMello/glofox-tech-challenge/blob/main/README.md
 npm start
 ```
 
