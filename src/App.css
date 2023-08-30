@@ -6,18 +6,18 @@
 }
 
 .ApP--logo {
-  height: 8vh;
+  height: 15vh;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+/* @media (prefers-reduced-motion: no-preference) {
   .ApP--logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
 .app__header {
-  background-color: #EB836D;
+  background-color: #5b5f62;
   min-height: 12vh;
   display: flex;
   flex-direction: column;
@@ -42,7 +42,86 @@
 }
 
 .appmain {
-  background: #383490;
+  background: #5b5f62;
   flex: 1;
   padding: 2vh 33vw;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.email-container {
+  width: 100%;
+}
+
+.email {
+  width: 100%;
+}
+
+.btn {
+  padding: 20px;
+  width: 90px;
+  height: 30px;
+  background-color: lightblue;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  border-radius: 30px;
+  transition: opacity 0.1s;
+}
+
+.btn:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.input {
+  height: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.input:focus {
+  outline: none;
+  border: none;
+}
+
+.select {
+  height: 50px;
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.select:focus {
+  outline: none;
+  border: none;
+}
+
+.form-container {
+  /* height: 500px;
+  width: 500px; */
+  margin: 0 auto;
+  background-color: #ababab;
+  display: flex;
+  flex-direction: column;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  padding: 30px;
+  gap: 20px;
+}
+
+.form-container > h2 {
+  font-size: 20px;
+  border-bottom: 1px solid grey;
+  padding: 10px;
 }
